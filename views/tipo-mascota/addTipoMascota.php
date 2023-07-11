@@ -11,12 +11,12 @@
   <div class="row">
       <div class="col-8">
         <form method='POST' action='services/mascota/addTipoMct.php'>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="tipo_mascota" class="form-label">Tipo de mascota</label>
             <input type="text" class="form-control" name="tipo_mascota" id="tipo_mascota" aria-describedby="nameHelp" required>
             <div id="nameHelp" class="form-text">Escribe el nombre del tipo de mascota.</div>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="descripcion" class="form-label">Descripción</label>
             <input type="text" class="form-control" name="descripcion" id="descripcion" aria-describedby="tipoHelp" required>
             <div id="tipoHelp" class="form-text">Describe el tipo de mascota.</div>

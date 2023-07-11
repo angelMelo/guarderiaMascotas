@@ -30,31 +30,31 @@
           <div>
             <input type="hidden" class="form-control" name="id_cliente" id="id_cliente" value="<?php echo $id_cliente;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" name="nombre" id="nombre" value="<?php echo $nombre;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="apellido_paterno" class="form-label">Apellido Paterno</label>
             <input type="text" class="form-control" name="apellido_paterno" id="apellido_paterno" value="<?php echo $apellido_paterno;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="apellido_materno" class="form-label">Apellido Materno</label>
             <input type="text" class="form-control" name="apellido_materno" id="apellido_materno" value="<?php echo $apellido_materno;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="direccion" class="form-label">Dirección</label>
             <input type="text" class="form-control" name="direccion" id="direccion" value="<?php echo $direccion;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="ciudad" class="form-label">Ciudad</label>
             <input type="text" class="form-control" name="ciudad" id="ciudad" value="<?php echo $ciudad;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="codigo_postal" class="form-label">Codigo Postal</label>
             <input type="text" class="form-control" name="codigo_postal" id="codigo_postal" value="<?php echo $codigo_postal;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="estado" class="form-label">Estado</label>
             <input type="text" class="form-control" name="estado" id="estado" value="<?php echo $estado;?>" required>
           </div>

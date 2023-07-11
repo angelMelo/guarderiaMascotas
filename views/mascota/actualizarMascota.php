@@ -28,15 +28,15 @@ $comentarios = $info[0]['comentarios'];
           <div>
             <input type="hidden" class="form-control" name="id_mascota" id="id_mascota" value="<?php echo $id_mascota;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="nombre_mascota" class="form-label">Nombre de la mascota</label>
             <input type="text" class="form-control" name="nombre_mascota" id="nombre_mascota" value="<?php echo $nombre_mascota;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="edad" class="form-label">Edad</label>
             <input type="number" class="form-control" name="edad" id="edad" value="<?php echo $edad;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="tamano" class="form-label">Tamaño</label>
             <select name="tamano" id="tamano" class="form-select" aria-label="Default select example" required>
               <option value="<?php echo $tamano;?>"><?php echo $tamano;?></option>
@@ -45,11 +45,11 @@ $comentarios = $info[0]['comentarios'];
               <option value="Grande">Grande</option>
             </select>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="peso" class="form-label">Peso</label>
             <input type="number" step="0.01" class="form-control" name="peso" id="peso" value="<?php echo $peso;?>" required>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="condicion_salud" class="form-label">Condición de salud</label>
             <select name="condicion_salud" id="condicion_salud" class="form-select" aria-label="Default select example" required>
               <option value="<?php echo $condicion_salud;?>"><?php echo $condicion_salud;?></option>
@@ -58,13 +58,13 @@ $comentarios = $info[0]['comentarios'];
               <option value="Buena">Buena</option>
             </select>
           </div>
-          <div class="mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="comentarios" class="form-label">Comentarios</label>
             <input type="text" class="form-control" name="comentarios" id="comentarios" value="<?php echo $comentarios;?>" required>
           </div>
         <p>
       </div>
-      <div class="col-2">
+      <div class="col-sm-6 mb-3 mb-sm-0">
         <p><button type="submit" class="btn btn-primary btn-lg">Actualizar</button></p>
         </form>
         <p><a href="?pagina=clientes"><button class="btn btn-danger btn-lg">Regresar</button></a></p>

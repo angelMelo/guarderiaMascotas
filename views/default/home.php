@@ -18,7 +18,7 @@
                         <h5 class="card-header">Guarderia Mascotas</h5>
                         <div class="card-body">
                             <h5 class="card-title">Demo</h5>
-                            <p class="card-text">Ejemplo básico de un CRUD con PHP nativo + Mysql.</p>
+                            <p class="card-text">Ejemplo básico de un CRUD con PHP + Mysql.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
         <div class="col-sm-4 mb-12 mb-sm-0">
             <div class="row">
                 <div class="col-6">
-                    <div class="card" style="width: 12rem;">
+                    <div class="card" style="width: 10rem;">
                         <img src="resources/imgs/cliente.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">89 Clientes registrados.</p>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="card" style="width: 12rem;">
+                    <div class="card" style="width: 10rem;">
                         <img src="resources/imgs/mascota.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">35 Mascotas agregadas.</p>
@@ -70,7 +70,7 @@
             <div class="row"><p></div>
             <div class="row">
                 <div class="col-6">
-                    <div class="card" style="width: 12rem;">
+                    <div class="card" style="width: 10rem;">
                         <img src="resources/imgs/servicio.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">25 Servicios activos.</p>
@@ -79,10 +79,10 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="card" style="width: 12rem;">
+                    <div class="card" style="width: 10rem;">
                         <img src="resources/imgs/contacto.png" class="card-img-top">
                         <div class="card-body">
-                            <p class="card-text">Agenda.</p>
+                            <p class="card-text">Agenda de clientes.</p>
                             <a href="#" class="btn btn-primary">Consultar</a>
                         </div>
                     </div>

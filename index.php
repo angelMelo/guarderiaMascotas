@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
 
   <head>
   
@@ -21,7 +21,7 @@
 
   <header>
 
-  <nav class="navbar navbar-expand-lg" style="background-color: #1b14ff;">
+  <nav class="navbar navbar-expand-lg" style="background-color: #9895fc;">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
